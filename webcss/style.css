@@ -1,0 +1,54 @@
+/*Selector {
+    Property:value;
+}*/
+
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(cute.PNG);
+    background-size: cover;
+}
+
+h2,p {
+    color: red;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
+}
+
+p {
+    color: pink;
+    font-size: 20px;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2{
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px 0px 20px;
+    width: 33px;
+    height: 55px;
+}
+
